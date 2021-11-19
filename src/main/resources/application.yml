@@ -1,0 +1,14 @@
+server:
+  port: 8001
+
+myExcel:
+  dirPath: E:\aaaa\bbb  #目标文件夹路径
+  writeXlsPath: E:\ccc\ddd\eee.xls  #生成的新excel文件路径  注意文件后缀保持一致 .xls 还是 .xlsx
+
+#log文件
+logging:
+  level:
+    com.porsche.bih5.mapper: INFO
+  file:
+    path: d://excel_log
+  config: classpath:logback-spring.xml
